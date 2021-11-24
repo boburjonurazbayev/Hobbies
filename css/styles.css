@@ -46,10 +46,6 @@ img {
   margin: 2px;
 }
 
-.dummy__controller:checked + .dummy__box {
-  background-image: url(../images/table-tennis.png);
-}
-
 .dummy__box {
   width: 15px;
   height: 15px;
@@ -59,6 +55,10 @@ img {
   background-size: contain;
   border: 1px solid dimgray;
   border-radius: 2px;
+}
+
+.dummy__input:disabled + .dummy__box {
+  opacity: 0.4;
 }
 
 .dummy__input:checked + .table-tennis-ball {
@@ -75,10 +75,6 @@ img {
 
 .dummy__input:checked + .hockey-puck {
   background-image: url(../images/hockey-puck.png);
-}
-
-.dummy__input:disabled + .dummy__box {
-  opacity: 0.4;
 }
 
 .dummy__input:disabled ~ .dummy__description {

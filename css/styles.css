@@ -80,3 +80,11 @@ img {
 .dummy__input:disabled ~ .dummy__description {
   opacity: 0.4;
 }
+
+.dummy__button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  color: white;
+  background-color: darkcyan;
+  border: 1px solid cyan;
+}
